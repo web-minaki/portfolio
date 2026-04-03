@@ -1,0 +1,82 @@
+/* =========================================
+   Reset
+========================================= */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote {
+  margin: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Body base */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Images */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Forms */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Smooth scroll */
+html:focus-within {
+  scroll-behavior: smooth;
+}
